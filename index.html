@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/null.css" rel="stylesheet" />
+    <link href="./styles/styles.css" rel="stylesheet" />
+    <link href="./assets/fonts/stylesheet.css" rel="stylesheet" />
+    <title>task-1.3</title>
+  </head>
+
+  <body class="page body-wrapper">
+    <!-- HEADER =================================================== -->
+    <header class="header-page container container--top-bot">
+      <div class="header-page__content flex-container header-320px">
+        <div class="burger-menu">
+          <button class="burger-menu__btn btn">
+            <div class="btn__ico burger-menu-ico"></div>
+          </button>
+        </div>
+
+        <div class="header-page__divider divider min-siz-768px"></div>
+
+        <div class="header-page__logo logo">
+          <a href="#" class="logo__link">
+            <img src="./assets/img/Group.svg" alt="logo group" />
+          </a>
+        </div>
+
+        <div class="call min-siz-768px">
+          <button class="call__btn btn">
+            <div class="btn__ico call-ico"></div>
+          </button>
+        </div>
+
+        <div class="chat min-siz-768px">
+          <button class="chat__btn btn">
+            <div class="btn__ico chat-ico"></div>
+          </button>
+        </div>
+
+        <div class="profile min-siz-768px">
+          <button class="profile_btn btn">
+            <div class="btn__ico profile-ico"></div>
+          </button>
+        </div>
+
+        <div class="header-page__divider divider"></div>
+
+        <div class="repair">
+          <button class="repair__btn btn">
+            <div class="btn__ico repair-ico"></div>
+          </button>
+        </div>
+
+        <div class="checkstatus">
+          <button class="checkstatus_btn btn">
+            <div class="btn__ico checkstatus-ico"></div>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- ================================================================== -->
+
+    <!-- MAIN ============================================================= -->
+    <main class="main-page wrapper">
+      <article class="main-content">
+        <article class="main-page__heading flex-container">
+          <h1 class="heading container highlight">Услуги и сервисы</h1>
+
+          <section class="repairing flex-container-1120px">
+            <p class="repairing__text">Оставить заявку</p>
+
+            <div class="repair">
+              <button class="repair__btn btn btn--color--light-gray">
+                <div class="btn__ico repair-ico"></div>
+              </button>
+            </div>
+          </section>
+
+          <section class="main-page__repair-status repair-status flex-container-1120px">
+            <p class="repair-status__text">Статус ремонта</p>
+
+            <div class="checkstatus">
+              <button class="checkstatus_btn btn btn--color--light-gray">
+                <div class="btn__ico checkstatus-ico"></div>
+              </button>
+            </div>
+          </section>
+        </article>
+
+        <nav class="main-content__slide slide-menu container">
+          <ul class="slide-menu__list flex-container flex-container--start-content">
+            <li class="slide-menu__items focus-item"><button class="slide-menu__btn btn btn--color--light-gray">Ремонтируемые устройства</button></li>
+
+            <li class="slide-menu__items"><button class="slide-menu__btn btn btn--color--light-gray">Дополнительные услуги</button></li>
+
+            <li class="slide-menu__items"><button class="slide-menu__btn btn btn--color--light-gray">Цены на услуги</button></li>
+
+            <li class="slide-menu__items"><button class="slide-menu__btn btn btn--color--light-gray">Специальные цены</button></li>
+
+            <li class="slide-menu__items"><button class="slide-menu__btn btn btn--color--light-gray">Адреса сервисных центров</button></li>
+          </ul>
+        </nav>
+
+        <button class="main-content_comment-btn comment-btn btn btn--color--light-gray min-siz-1120px">Отзывы</button>
+
+        <article class="company-information">
+          <section class="company-information__text-content container">
+            <p class="company-information__text">
+              Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </p>
+
+            <p class="company-information__text min-siz-768px">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+
+            <p class="company-information__text min-siz-1120px">
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы
+              гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+            </p>
+
+            <button class="read-more btn btn--color--light-gray flex-container flex-container--start-content">
+              <div class="read-more__arrows arrows">
+                <div class="arrows__ico read-more-ico"></div>
+              </div>
+
+              <div class="read-more__text">
+                <p class="read-more__item">Читать далее</p>
+              </div>
+            </button>
+          </section>
+
+          <section class="company-information__img img img-wrapper container">
+            <picture class="company-information__picture">
+              <source media="(min-width: 1120px)" srcset="./assets/img/mg1120.JPG" />
+
+              <source media="(min-width: 768px)" srcset="./assets/img/mg768.JPG" />
+
+              <source media="(min-width: 320px)" srcset="./assets/img/mg320.JPG" />
+
+              <img class="img__logo" alt="company logo" src="./assets/img/mg320.JPG" />
+            </picture>
+          </section>
+        </article>
+      </article>
+    </main>
+    <!-- ================================================================================ -->
+
+    <!-- FOOTER  ======================================================================== -->
+    <footer class="footer-page"></footer>
+  </body>
+</html>
